@@ -1,0 +1,2 @@
+ITEM NAME           PRICE QUANTITY COST
+Sprite              Rs.20  2       Rs.40
