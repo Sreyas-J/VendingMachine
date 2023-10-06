@@ -1,3 +1,15 @@
+
+# VENDING MACHINE
+
+This project replicates the functionality of a vending machine in C.
+
+A buyer can create a profile, add and remove items from cart and make payment according to the the price of the items in cart. Each purchase also provides a bill in bill.txt.
+
+The seller can put things in the vending machine through seller.txt which gets updated when a user makes any purchase.
+## Documentation
+
+
+
 This program uses the following libraries:
 1.ctype
 2.stdlib
@@ -68,3 +80,35 @@ Colour Graphics: Abhinav Deshpande
 Makefile: Kushal 
 Debugging: Shashank Devarmani, Abhinav Deshpande, Pradyumna G
 Bill.txt: Shashank Devarmani
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone git@github.com:Sreyas-J/VendingMachine.git
+```
+
+Go to the project directory
+
+```bash
+  cd VendingMachine
+```
+
+Compile the code
+
+```bash
+  make
+```
+
+Enable permissions to run the project
+
+```bash
+chmod +x vend
+```
+
+Run the project
+
+```bash
+./vend
+```
+
